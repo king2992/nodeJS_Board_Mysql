@@ -1,0 +1,21 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>welcome</title>
+        <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="/js/board/add.js"></script>
+    </head>
+    <body>
+       <h1>Board Add </h1>
+            <a href="/board/list">목록</a>
+            <div class="section-form">
+                <form action="/board/add" method="post">
+                    <div>제목 : <input type="text" name="title"></div>
+                    <div>내용 : <input type="text" name="content"></div>
+                    <div>작성자 : <input type="text" name="writer"></div>
+                    <div><input type="submit"></div>
+                </form>
+            </div>
+    </body>
+</html> 
